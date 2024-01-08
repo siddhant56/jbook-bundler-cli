@@ -9,13 +9,14 @@ This is a cli application that will fire up a React web application that transpi
 - **Output Window:** View the output of the code in a dedicated window.
 - **Interactive Interface:** Real-time feedback and immediate display of code results.
 
-## Technologies Used
+## Technologies And Packages Used
 
 - React
 - Esbuild
 - Lerna
 - Express
 - Bulma css
+- Commander
 
 ## Installation
 

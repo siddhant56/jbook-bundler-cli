@@ -1,4 +1,4 @@
-import { Dispatch } from "react";
+import { Dispatch } from "redux";
 import { Action } from "../actions";
 import { ActionType } from "../action-types";
 import { saveCells } from "../action-creators";
@@ -12,6 +12,7 @@ export const persistMiddleware = ({
   getState: () => RootState;
 }) => {
   let timer: any;
+
   return (next: (action: Action) => void) => {
     return (action: Action) => {
       next(action);
@@ -29,7 +30,7 @@ export const persistMiddleware = ({
         }
         timer = setTimeout(() => {
           saveCells()(dispatch, getState);
-        }, 50);
+        }, 250);
       }
     };
   };
