@@ -1,6 +1,6 @@
 {
   "name": "jbook-bundler-cli",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "files": [
     "dist"
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jbook-bundler-cli/local-client": "^2.0.0"
+    "@jbook-bundler-cli/local-client": "^2.0.1"
   },
   "devDependencies": {
-    "@jbook-bundler-cli/local-api": "^2.0.0",
+    "@jbook-bundler-cli/local-api": "^2.0.1",
     "@types/node": "^20.10.6",
     "commander": "^11.1.0",
     "esbuild": "0.8.26",
