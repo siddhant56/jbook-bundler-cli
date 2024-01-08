@@ -1,6 +1,6 @@
-# Code Output Viewer
+# Jbook Documentation Tool
 
-This is a cli application that will fire up a React web application that transpiles and bundles code, allowing users to view the output in a dedicated window. It provides a platform to add code descriptions, write code snippets, and immediately visualize the output.
+This is a cli application that will fire up a React web application that transpiles and bundles code, allowing users to view the output in a dedicated window. It provides a platform to add code descriptions, write code snippets, and immediately visualize the output making it as a perfect documentation tool for javascript developers.
 
 ## Features
 
