@@ -29,7 +29,7 @@ export const persistMiddleware = ({
         }
         timer = setTimeout(() => {
           saveCells()(dispatch, getState);
-        }, 250);
+        }, 100);
       }
     };
   };
