@@ -34,6 +34,8 @@ To run this application locally, follow these steps:
 4. View the output in the dedicated output window.
 5. Explore and experiment with different code snippets and see their respective outputs.
 
+Git repository : https://github.com/siddhant56/jbook-bundler-cli
+
 ## Contact
 
 For any inquiries or feedback, feel free to reach out at siddhanttrivedi56@gmail.com.
